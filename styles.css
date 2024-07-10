@@ -1,0 +1,139 @@
+body {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 2rem 0rem;
+  justify-content: center;
+  align-items: flex-start;
+
+  background: var(--Gray-6, #F2F2F2);
+
+  font-family: Roboto;
+  font-style: normal;
+
+}
+
+.container {
+  display: flex;
+  max-width: 23.4375rem;
+  padding: 0rem 1rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  flex: 1 0 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: stretch;
+}
+
+h1 {
+  align-self: stretch;
+  color: var(--Gray-1, #333);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 120%; /* 2.4rem */
+}
+
+#new-note {
+  display: flex;
+  height: 7.5rem;
+  padding: 1rem;
+  align-items: flex-start;
+  gap: 0.25rem;
+  align-self: stretch;
+
+  border-radius: 1rem;
+  border: 2px solid var(--Gray-2, #4F4F4F);
+  background: #FFF;
+}
+
+#new-note:focus-within {
+  border: 2px solid var(--Gray-1, #333);
+}
+
+#new-note::placeholder {
+  color: var(--Gray-4, #BDBDBD);
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 1.8rem */
+}
+
+#create-btn {
+  display: flex;
+  padding: 0.5rem 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: stretch;
+
+  border-radius: 1rem;
+  background: var(--Gray-2, #4F4F4F);
+
+  color: #FFF;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 120%; /* 1.8rem */
+}
+
+#notes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+}
+
+.note {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+  align-self: stretch;
+
+  border-radius: 1rem;
+  border: 2px solid var(--Gray-2, #4F4F4F);
+  background: #FFF;
+
+  color: var(--Gray-1, #333);
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 1.8rem */
+}
+
+#delete-btn {
+  display: flex;
+  padding: 0.25rem 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  border-radius: 1rem;
+  border: #E0E0E0;
+  background: var(--Gray-5, #E0E0E0);
+}
+
+span {
+  align-self: stretch;
+
+  color: var(--Gray-1, #333);
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 1.8rem */
+}
+
