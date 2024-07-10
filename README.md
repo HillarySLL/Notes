@@ -3,9 +3,9 @@
 Este proyecto es una aplicación simple de toma de notas utilizando HTML, CSS y JavaScript. Permite a los usuarios crear, visualizar y eliminar notas, que se almacenan en el sessionStorage del navegador.
 
 ## Estructura del proyecto
-  [![My Skills](https://skillicons.dev/icons?i=html)](https://skillicons.dev) Contiene la estructura de la aplicación.
-  [![My Skills](https://skillicons.dev/icons?i=css)](https://skillicons.dev) Contiene los estilos para la apariencia de la aplicación.
-  [![My Skills](https://skillicons.dev/icons?i=js)](https://skillicons.dev) Contiene la lógica para manejar las notas.
+ -  [![My Skills](https://skillicons.dev/icons?i=html)](https://skillicons.dev) Contiene la estructura de la aplicación.
+ -  [![My Skills](https://skillicons.dev/icons?i=css)](https://skillicons.dev) Contiene los estilos para la apariencia de la aplicación.
+ -  [![My Skills](https://skillicons.dev/icons?i=js)](https://skillicons.dev) Contiene la lógica para manejar las notas.
 
 ## Funcionalidades
 
